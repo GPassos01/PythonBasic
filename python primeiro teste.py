@@ -1,0 +1,10 @@
+nome = input('Qual seu nome? ')
+print('Ola',nome+',', 'primeiramente vou tentar calcular sua idade.')
+print('Obs: Vou coniderar que ja fez aniversário esse ano')
+numero1=int(input('Primeiro me diga em que ano nasceu: '))
+numero2=int(input('Agora em que ano esta digitando isso: '))
+resultado = numero2 - numero1
+print('Você tem, ou vai fazer', resultado, 'anos')
+input('Acertei? ')
+print('IHULL!! Obrigado pela brincadeira!')
+input('Aperte enter para sair')
